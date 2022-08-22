@@ -1,0 +1,867 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		44B10262562572D919F4D229 /* Pods_RapidShotLightAR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E40E242CACBB8E6DA58E3BBF /* Pods_RapidShotLightAR.framework */; };
+		4C85F216289AAA7A00E1A364 /* puckTryTwo 1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 4C85F215289AAA7A00E1A364 /* puckTryTwo 1.mlmodel */; };
+		4C85F218289B730200E1A364 /* Summary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C85F217289B730200E1A364 /* Summary.swift */; };
+		4C85F21A289B96E900E1A364 /* RandomStickTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C85F219289B96E900E1A364 /* RandomStickTracking.swift */; };
+		4C85F21C289BB66900E1A364 /* SurvivalStickTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C85F21B289BB66900E1A364 /* SurvivalStickTracking.swift */; };
+		4CACF56D288EF70E000955DE /* findPuck 1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 4CACF56C288EF70E000955DE /* findPuck 1.mlmodel */; };
+		4CACF575288F170A000955DE /* Select Skill Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CACF574288F170A000955DE /* Select Skill Screen.swift */; };
+		4CACF578288F1806000955DE /* mainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CACF577288F1806000955DE /* mainController.swift */; };
+		4CACF57A288F2890000955DE /* SelectGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CACF579288F2890000955DE /* SelectGame.swift */; };
+		4CACF57C288F299F000955DE /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CACF57B288F299F000955DE /* ColorExtension.swift */; };
+		4CACF57E288F76FE000955DE /* CreateGameScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CACF57D288F76FE000955DE /* CreateGameScreen.swift */; };
+		4CACF58028903D23000955DE /* StickTrackingRapidHands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CACF57F28903D23000955DE /* StickTrackingRapidHands.swift */; };
+		4CB9E2E42885C6AE0005BC1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB9E2E32885C6AE0005BC1B /* AppDelegate.swift */; };
+		4CB9E2E62885C6AE0005BC1B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB9E2E52885C6AE0005BC1B /* SceneDelegate.swift */; };
+		4CB9E2E82885C6AE0005BC1B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB9E2E72885C6AE0005BC1B /* ViewController.swift */; };
+		4CB9E2EB2885C6AE0005BC1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CB9E2E92885C6AE0005BC1B /* Main.storyboard */; };
+		4CB9E2ED2885C6B10005BC1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CB9E2EC2885C6B10005BC1B /* Assets.xcassets */; };
+		4CB9E2F02885C6B10005BC1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CB9E2EE2885C6B10005BC1B /* LaunchScreen.storyboard */; };
+		4CB9E2FB2885C6B10005BC1B /* RapidShotLightARTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB9E2FA2885C6B10005BC1B /* RapidShotLightARTests.swift */; };
+		4CB9E3052885C6B10005BC1B /* RapidShotLightARUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB9E3042885C6B10005BC1B /* RapidShotLightARUITests.swift */; };
+		4CB9E3072885C6B10005BC1B /* RapidShotLightARUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB9E3062885C6B10005BC1B /* RapidShotLightARUITestsLaunchTests.swift */; };
+		4CB9E3142885C7240005BC1B /* CameraFeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB9E3132885C7240005BC1B /* CameraFeedView.swift */; };
+		4CE0E81E2890598500CFB170 /* CommonTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE0E81D2890598500CFB170 /* CommonTypes.swift */; };
+		4CE0E82028905BBE00CFB170 /* TrackingImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE0E81F28905BBE00CFB170 /* TrackingImageView.swift */; };
+		C5F1D18DC041D00D82F4D12E /* Pods_RapidShotLightARTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A1E7F1140AABA72F5A5414A /* Pods_RapidShotLightARTests.framework */; };
+		E23A6345D0F4962E9EF1D156 /* Pods_RapidShotLightAR_RapidShotLightARUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44AA01DC5DAE110576F5AC58 /* Pods_RapidShotLightAR_RapidShotLightARUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4CB9E2F72885C6B10005BC1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CB9E2D82885C6AE0005BC1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CB9E2DF2885C6AE0005BC1B;
+			remoteInfo = RapidShotLightAR;
+		};
+		4CB9E3012885C6B10005BC1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CB9E2D82885C6AE0005BC1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CB9E2DF2885C6AE0005BC1B;
+			remoteInfo = RapidShotLightAR;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		105D77FD0176FDF4EEA791E6 /* Pods-RapidShotLightARTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RapidShotLightARTests.debug.xcconfig"; path = "Target Support Files/Pods-RapidShotLightARTests/Pods-RapidShotLightARTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1A1E7F1140AABA72F5A5414A /* Pods_RapidShotLightARTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RapidShotLightARTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		20D6CB46C7B089B1094B1BBD /* Pods-RapidShotLightAR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RapidShotLightAR.release.xcconfig"; path = "Target Support Files/Pods-RapidShotLightAR/Pods-RapidShotLightAR.release.xcconfig"; sourceTree = "<group>"; };
+		44AA01DC5DAE110576F5AC58 /* Pods_RapidShotLightAR_RapidShotLightARUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RapidShotLightAR_RapidShotLightARUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C85F215289AAA7A00E1A364 /* puckTryTwo 1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "puckTryTwo 1.mlmodel"; sourceTree = "<group>"; };
+		4C85F217289B730200E1A364 /* Summary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Summary.swift; sourceTree = "<group>"; };
+		4C85F219289B96E900E1A364 /* RandomStickTracking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomStickTracking.swift; sourceTree = "<group>"; };
+		4C85F21B289BB66900E1A364 /* SurvivalStickTracking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurvivalStickTracking.swift; sourceTree = "<group>"; };
+		4CACF56C288EF70E000955DE /* findPuck 1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "findPuck 1.mlmodel"; sourceTree = "<group>"; };
+		4CACF574288F170A000955DE /* Select Skill Screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Select Skill Screen.swift"; sourceTree = "<group>"; };
+		4CACF577288F1806000955DE /* mainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainController.swift; sourceTree = "<group>"; };
+		4CACF579288F2890000955DE /* SelectGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectGame.swift; sourceTree = "<group>"; };
+		4CACF57B288F299F000955DE /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		4CACF57D288F76FE000955DE /* CreateGameScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGameScreen.swift; sourceTree = "<group>"; };
+		4CACF57F28903D23000955DE /* StickTrackingRapidHands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickTrackingRapidHands.swift; sourceTree = "<group>"; };
+		4CB9E2E02885C6AE0005BC1B /* RapidShotLightAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RapidShotLightAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CB9E2E32885C6AE0005BC1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4CB9E2E52885C6AE0005BC1B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4CB9E2E72885C6AE0005BC1B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4CB9E2EA2885C6AE0005BC1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4CB9E2EC2885C6B10005BC1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4CB9E2EF2885C6B10005BC1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4CB9E2F12885C6B10005BC1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CB9E2F62885C6B10005BC1B /* RapidShotLightARTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RapidShotLightARTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CB9E2FA2885C6B10005BC1B /* RapidShotLightARTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RapidShotLightARTests.swift; sourceTree = "<group>"; };
+		4CB9E3002885C6B10005BC1B /* RapidShotLightARUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RapidShotLightARUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CB9E3042885C6B10005BC1B /* RapidShotLightARUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RapidShotLightARUITests.swift; sourceTree = "<group>"; };
+		4CB9E3062885C6B10005BC1B /* RapidShotLightARUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RapidShotLightARUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4CB9E3132885C7240005BC1B /* CameraFeedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraFeedView.swift; sourceTree = "<group>"; };
+		4CE0E81D2890598500CFB170 /* CommonTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonTypes.swift; sourceTree = "<group>"; };
+		4CE0E81F28905BBE00CFB170 /* TrackingImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackingImageView.swift; sourceTree = "<group>"; };
+		5533EC733A1F9AFF88A24C56 /* Pods-RapidShotLightAR-RapidShotLightARUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RapidShotLightAR-RapidShotLightARUITests.debug.xcconfig"; path = "Target Support Files/Pods-RapidShotLightAR-RapidShotLightARUITests/Pods-RapidShotLightAR-RapidShotLightARUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AE9BFD4220AE0AA8025CED45 /* Pods-RapidShotLightAR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RapidShotLightAR.debug.xcconfig"; path = "Target Support Files/Pods-RapidShotLightAR/Pods-RapidShotLightAR.debug.xcconfig"; sourceTree = "<group>"; };
+		B2049ED3621B00C554DB408B /* Pods-RapidShotLightARTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RapidShotLightARTests.release.xcconfig"; path = "Target Support Files/Pods-RapidShotLightARTests/Pods-RapidShotLightARTests.release.xcconfig"; sourceTree = "<group>"; };
+		C5834749176099F620016CEF /* Pods-RapidShotLightAR-RapidShotLightARUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RapidShotLightAR-RapidShotLightARUITests.release.xcconfig"; path = "Target Support Files/Pods-RapidShotLightAR-RapidShotLightARUITests/Pods-RapidShotLightAR-RapidShotLightARUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E40E242CACBB8E6DA58E3BBF /* Pods_RapidShotLightAR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RapidShotLightAR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CB9E2DD2885C6AE0005BC1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44B10262562572D919F4D229 /* Pods_RapidShotLightAR.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CB9E2F32885C6B10005BC1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5F1D18DC041D00D82F4D12E /* Pods_RapidShotLightARTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CB9E2FD2885C6B10005BC1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E23A6345D0F4962E9EF1D156 /* Pods_RapidShotLightAR_RapidShotLightARUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D85D44F9C293F8595F1CD1E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AE9BFD4220AE0AA8025CED45 /* Pods-RapidShotLightAR.debug.xcconfig */,
+				20D6CB46C7B089B1094B1BBD /* Pods-RapidShotLightAR.release.xcconfig */,
+				5533EC733A1F9AFF88A24C56 /* Pods-RapidShotLightAR-RapidShotLightARUITests.debug.xcconfig */,
+				C5834749176099F620016CEF /* Pods-RapidShotLightAR-RapidShotLightARUITests.release.xcconfig */,
+				105D77FD0176FDF4EEA791E6 /* Pods-RapidShotLightARTests.debug.xcconfig */,
+				B2049ED3621B00C554DB408B /* Pods-RapidShotLightARTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		235ED45F33D491D8776A8E5B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E40E242CACBB8E6DA58E3BBF /* Pods_RapidShotLightAR.framework */,
+				44AA01DC5DAE110576F5AC58 /* Pods_RapidShotLightAR_RapidShotLightARUITests.framework */,
+				1A1E7F1140AABA72F5A5414A /* Pods_RapidShotLightARTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4CACF569288EF538000955DE /* references */ = {
+			isa = PBXGroup;
+			children = (
+				4CACF56C288EF70E000955DE /* findPuck 1.mlmodel */,
+				4C85F215289AAA7A00E1A364 /* puckTryTwo 1.mlmodel */,
+			);
+			path = references;
+			sourceTree = "<group>";
+		};
+		4CACF571288F16E3000955DE /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4CACF574288F170A000955DE /* Select Skill Screen.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		4CACF572288F16EF000955DE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4CACF57B288F299F000955DE /* ColorExtension.swift */,
+				4CACF57D288F76FE000955DE /* CreateGameScreen.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4CACF573288F16F5000955DE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4CACF579288F2890000955DE /* SelectGame.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4CACF576288F17D2000955DE /* NavControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4CACF577288F1806000955DE /* mainController.swift */,
+			);
+			path = NavControllers;
+			sourceTree = "<group>";
+		};
+		4CB9E2D72885C6AE0005BC1B = {
+			isa = PBXGroup;
+			children = (
+				4CACF576288F17D2000955DE /* NavControllers */,
+				4CACF573288F16F5000955DE /* View */,
+				4CACF572288F16EF000955DE /* Model */,
+				4CACF571288F16E3000955DE /* ViewController */,
+				4CACF569288EF538000955DE /* references */,
+				4CB9E2E22885C6AE0005BC1B /* RapidShotLightAR */,
+				4CB9E2F92885C6B10005BC1B /* RapidShotLightARTests */,
+				4CB9E3032885C6B10005BC1B /* RapidShotLightARUITests */,
+				4CB9E2E12885C6AE0005BC1B /* Products */,
+				0D85D44F9C293F8595F1CD1E /* Pods */,
+				235ED45F33D491D8776A8E5B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4CB9E2E12885C6AE0005BC1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CB9E2E02885C6AE0005BC1B /* RapidShotLightAR.app */,
+				4CB9E2F62885C6B10005BC1B /* RapidShotLightARTests.xctest */,
+				4CB9E3002885C6B10005BC1B /* RapidShotLightARUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CB9E2E22885C6AE0005BC1B /* RapidShotLightAR */ = {
+			isa = PBXGroup;
+			children = (
+				4CE0E81F28905BBE00CFB170 /* TrackingImageView.swift */,
+				4CE0E81D2890598500CFB170 /* CommonTypes.swift */,
+				4CB9E3132885C7240005BC1B /* CameraFeedView.swift */,
+				4CB9E2E32885C6AE0005BC1B /* AppDelegate.swift */,
+				4CB9E2E52885C6AE0005BC1B /* SceneDelegate.swift */,
+				4CB9E2E72885C6AE0005BC1B /* ViewController.swift */,
+				4CACF57F28903D23000955DE /* StickTrackingRapidHands.swift */,
+				4C85F219289B96E900E1A364 /* RandomStickTracking.swift */,
+				4C85F21B289BB66900E1A364 /* SurvivalStickTracking.swift */,
+				4C85F217289B730200E1A364 /* Summary.swift */,
+				4CB9E2E92885C6AE0005BC1B /* Main.storyboard */,
+				4CB9E2EC2885C6B10005BC1B /* Assets.xcassets */,
+				4CB9E2EE2885C6B10005BC1B /* LaunchScreen.storyboard */,
+				4CB9E2F12885C6B10005BC1B /* Info.plist */,
+			);
+			path = RapidShotLightAR;
+			sourceTree = "<group>";
+		};
+		4CB9E2F92885C6B10005BC1B /* RapidShotLightARTests */ = {
+			isa = PBXGroup;
+			children = (
+				4CB9E2FA2885C6B10005BC1B /* RapidShotLightARTests.swift */,
+			);
+			path = RapidShotLightARTests;
+			sourceTree = "<group>";
+		};
+		4CB9E3032885C6B10005BC1B /* RapidShotLightARUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4CB9E3042885C6B10005BC1B /* RapidShotLightARUITests.swift */,
+				4CB9E3062885C6B10005BC1B /* RapidShotLightARUITestsLaunchTests.swift */,
+			);
+			path = RapidShotLightARUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CB9E2DF2885C6AE0005BC1B /* RapidShotLightAR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CB9E30A2885C6B10005BC1B /* Build configuration list for PBXNativeTarget "RapidShotLightAR" */;
+			buildPhases = (
+				EA1E90C72D2F5986944FC8A0 /* [CP] Check Pods Manifest.lock */,
+				4CB9E2DC2885C6AE0005BC1B /* Sources */,
+				4CB9E2DD2885C6AE0005BC1B /* Frameworks */,
+				4CB9E2DE2885C6AE0005BC1B /* Resources */,
+				86599DA25252A3D5BBBA4482 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RapidShotLightAR;
+			productName = RapidShotLightAR;
+			productReference = 4CB9E2E02885C6AE0005BC1B /* RapidShotLightAR.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4CB9E2F52885C6B10005BC1B /* RapidShotLightARTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CB9E30D2885C6B10005BC1B /* Build configuration list for PBXNativeTarget "RapidShotLightARTests" */;
+			buildPhases = (
+				A8D8B9BA6C2090348F3A0F50 /* [CP] Check Pods Manifest.lock */,
+				4CB9E2F22885C6B10005BC1B /* Sources */,
+				4CB9E2F32885C6B10005BC1B /* Frameworks */,
+				4CB9E2F42885C6B10005BC1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CB9E2F82885C6B10005BC1B /* PBXTargetDependency */,
+			);
+			name = RapidShotLightARTests;
+			productName = RapidShotLightARTests;
+			productReference = 4CB9E2F62885C6B10005BC1B /* RapidShotLightARTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4CB9E2FF2885C6B10005BC1B /* RapidShotLightARUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CB9E3102885C6B10005BC1B /* Build configuration list for PBXNativeTarget "RapidShotLightARUITests" */;
+			buildPhases = (
+				7BAE56DB4B913BFF86B6260B /* [CP] Check Pods Manifest.lock */,
+				4CB9E2FC2885C6B10005BC1B /* Sources */,
+				4CB9E2FD2885C6B10005BC1B /* Frameworks */,
+				4CB9E2FE2885C6B10005BC1B /* Resources */,
+				119FD76DD22375BE7362F0FB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CB9E3022885C6B10005BC1B /* PBXTargetDependency */,
+			);
+			name = RapidShotLightARUITests;
+			productName = RapidShotLightARUITests;
+			productReference = 4CB9E3002885C6B10005BC1B /* RapidShotLightARUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CB9E2D82885C6AE0005BC1B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					4CB9E2DF2885C6AE0005BC1B = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					4CB9E2F52885C6B10005BC1B = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 4CB9E2DF2885C6AE0005BC1B;
+					};
+					4CB9E2FF2885C6B10005BC1B = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 4CB9E2DF2885C6AE0005BC1B;
+					};
+				};
+			};
+			buildConfigurationList = 4CB9E2DB2885C6AE0005BC1B /* Build configuration list for PBXProject "RapidShotLightAR" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4CB9E2D72885C6AE0005BC1B;
+			productRefGroup = 4CB9E2E12885C6AE0005BC1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CB9E2DF2885C6AE0005BC1B /* RapidShotLightAR */,
+				4CB9E2F52885C6B10005BC1B /* RapidShotLightARTests */,
+				4CB9E2FF2885C6B10005BC1B /* RapidShotLightARUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CB9E2DE2885C6AE0005BC1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CB9E2F02885C6B10005BC1B /* LaunchScreen.storyboard in Resources */,
+				4CB9E2ED2885C6B10005BC1B /* Assets.xcassets in Resources */,
+				4CB9E2EB2885C6AE0005BC1B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CB9E2F42885C6B10005BC1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CB9E2FE2885C6B10005BC1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		119FD76DD22375BE7362F0FB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RapidShotLightAR-RapidShotLightARUITests/Pods-RapidShotLightAR-RapidShotLightARUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RapidShotLightAR-RapidShotLightARUITests/Pods-RapidShotLightAR-RapidShotLightARUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RapidShotLightAR-RapidShotLightARUITests/Pods-RapidShotLightAR-RapidShotLightARUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7BAE56DB4B913BFF86B6260B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RapidShotLightAR-RapidShotLightARUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86599DA25252A3D5BBBA4482 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RapidShotLightAR/Pods-RapidShotLightAR-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RapidShotLightAR/Pods-RapidShotLightAR-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RapidShotLightAR/Pods-RapidShotLightAR-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8D8B9BA6C2090348F3A0F50 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RapidShotLightARTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA1E90C72D2F5986944FC8A0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RapidShotLightAR-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CB9E2DC2885C6AE0005BC1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CB9E2E82885C6AE0005BC1B /* ViewController.swift in Sources */,
+				4C85F218289B730200E1A364 /* Summary.swift in Sources */,
+				4C85F216289AAA7A00E1A364 /* puckTryTwo 1.mlmodel in Sources */,
+				4CACF57E288F76FE000955DE /* CreateGameScreen.swift in Sources */,
+				4CE0E81E2890598500CFB170 /* CommonTypes.swift in Sources */,
+				4CACF58028903D23000955DE /* StickTrackingRapidHands.swift in Sources */,
+				4C85F21A289B96E900E1A364 /* RandomStickTracking.swift in Sources */,
+				4CACF56D288EF70E000955DE /* findPuck 1.mlmodel in Sources */,
+				4CACF578288F1806000955DE /* mainController.swift in Sources */,
+				4C85F21C289BB66900E1A364 /* SurvivalStickTracking.swift in Sources */,
+				4CACF57C288F299F000955DE /* ColorExtension.swift in Sources */,
+				4CB9E2E42885C6AE0005BC1B /* AppDelegate.swift in Sources */,
+				4CACF575288F170A000955DE /* Select Skill Screen.swift in Sources */,
+				4CACF57A288F2890000955DE /* SelectGame.swift in Sources */,
+				4CB9E2E62885C6AE0005BC1B /* SceneDelegate.swift in Sources */,
+				4CE0E82028905BBE00CFB170 /* TrackingImageView.swift in Sources */,
+				4CB9E3142885C7240005BC1B /* CameraFeedView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CB9E2F22885C6B10005BC1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CB9E2FB2885C6B10005BC1B /* RapidShotLightARTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CB9E2FC2885C6B10005BC1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CB9E3052885C6B10005BC1B /* RapidShotLightARUITests.swift in Sources */,
+				4CB9E3072885C6B10005BC1B /* RapidShotLightARUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4CB9E2F82885C6B10005BC1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CB9E2DF2885C6AE0005BC1B /* RapidShotLightAR */;
+			targetProxy = 4CB9E2F72885C6B10005BC1B /* PBXContainerItemProxy */;
+		};
+		4CB9E3022885C6B10005BC1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CB9E2DF2885C6AE0005BC1B /* RapidShotLightAR */;
+			targetProxy = 4CB9E3012885C6B10005BC1B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4CB9E2E92885C6AE0005BC1B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CB9E2EA2885C6AE0005BC1B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4CB9E2EE2885C6B10005BC1B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CB9E2EF2885C6B10005BC1B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4CB9E3082885C6B10005BC1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4CB9E3092885C6B10005BC1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4CB9E30B2885C6B10005BC1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE9BFD4220AE0AA8025CED45 /* Pods-RapidShotLightAR.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RYPVCDCQH4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RapidShotLightAR/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app uses the camera to analzye the scene";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationLandscapeLeft;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SoftwareEngineering.RapidShotLightAR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4CB9E30C2885C6B10005BC1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20D6CB46C7B089B1094B1BBD /* Pods-RapidShotLightAR.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RYPVCDCQH4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RapidShotLightAR/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app uses the camera to analzye the scene";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationLandscapeLeft;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SoftwareEngineering.RapidShotLightAR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4CB9E30E2885C6B10005BC1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 105D77FD0176FDF4EEA791E6 /* Pods-RapidShotLightARTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G74655LZNT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SoftwareEngineering.RapidShotLightARTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RapidShotLightAR.app/RapidShotLightAR";
+			};
+			name = Debug;
+		};
+		4CB9E30F2885C6B10005BC1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2049ED3621B00C554DB408B /* Pods-RapidShotLightARTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G74655LZNT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SoftwareEngineering.RapidShotLightARTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RapidShotLightAR.app/RapidShotLightAR";
+			};
+			name = Release;
+		};
+		4CB9E3112885C6B10005BC1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5533EC733A1F9AFF88A24C56 /* Pods-RapidShotLightAR-RapidShotLightARUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G74655LZNT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SoftwareEngineering.RapidShotLightARUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RapidShotLightAR;
+			};
+			name = Debug;
+		};
+		4CB9E3122885C6B10005BC1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5834749176099F620016CEF /* Pods-RapidShotLightAR-RapidShotLightARUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G74655LZNT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SoftwareEngineering.RapidShotLightARUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RapidShotLightAR;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CB9E2DB2885C6AE0005BC1B /* Build configuration list for PBXProject "RapidShotLightAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CB9E3082885C6B10005BC1B /* Debug */,
+				4CB9E3092885C6B10005BC1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CB9E30A2885C6B10005BC1B /* Build configuration list for PBXNativeTarget "RapidShotLightAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CB9E30B2885C6B10005BC1B /* Debug */,
+				4CB9E30C2885C6B10005BC1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CB9E30D2885C6B10005BC1B /* Build configuration list for PBXNativeTarget "RapidShotLightARTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CB9E30E2885C6B10005BC1B /* Debug */,
+				4CB9E30F2885C6B10005BC1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CB9E3102885C6B10005BC1B /* Build configuration list for PBXNativeTarget "RapidShotLightARUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CB9E3112885C6B10005BC1B /* Debug */,
+				4CB9E3122885C6B10005BC1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4CB9E2D82885C6AE0005BC1B /* Project object */;
+}

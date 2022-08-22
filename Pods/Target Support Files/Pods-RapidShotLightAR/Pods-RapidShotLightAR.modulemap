@@ -1,0 +1,6 @@
+framework module Pods_RapidShotLightAR {
+  umbrella header "Pods-RapidShotLightAR-umbrella.h"
+
+  export *
+  module * { export * }
+}
